@@ -23,6 +23,7 @@ def main():
     print()
 
     print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.")
+    print(f"AT DAWN THE SKY TURNED {color}, AND THE AIR FELT)
 
 if __name__ == "__main__":
     main()
