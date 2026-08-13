@@ -1,18 +1,28 @@
 def main():
-    planet = input("Planet: ")
+    # planet = input("Planet: ")
 
-    # Separation
-    print("Hello", planet, "hello")
+    # # Separation
+    # print("Hello", planet, "hello")
 
-    # Ending
-    print("Hello", end=" ")
-    print(planet)
+    # # Ending
+    # print("Hello", end=" ")
+    # print(planet)
 
-    # Concatenation
-    print("Hello " + planet)
+    # # Concatenation
+    # print("Hello " + planet)
 
-    # Formatted String
-    print(f"Hello {planet}")
+    # # Formatted String
+    # print(f"Hello {planet}")
+
+    name = input("What's your name? ").title().strip()
+    color = input("Tell me a color: ").lower().strip()
+    adj = input("Give me an adjective: ").lower().strip()
+    goal = input("A goal that you would like to achieve: ").lower().strip()
+
+    print(f"Hello {name}!")
+    print()
+
+    print(f"At dawn the sky turned {color}, and the air felt {adj}. I decided today I will finally {goal}.")
 
 if __name__ == "__main__":
     main()
