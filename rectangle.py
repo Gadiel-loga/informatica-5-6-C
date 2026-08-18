@@ -10,7 +10,7 @@ def main():
     print("Perimeter: ", p)
     a = (width * 5)
     print("Area: ", a)
-    d = ((width ** 2) + (5 ** 2) ** 1/2)
+    d = (((5 ** 2) / 5) + ((width ** 2) / width))
     print("Diagonal: ", d)
 
 
