@@ -1,6 +1,6 @@
 def main():
 
-    layers = input(""Descend atmosphere layer: ": ").title().strip()
+    layers = input("Descend atmosphere layer: ").title().strip()
 
     if layers == "Exosphere":
         ad = "700–10,000 km"
