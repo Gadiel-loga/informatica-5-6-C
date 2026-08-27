@@ -28,6 +28,7 @@ def main():
         descend = altitude * 10
         time = (230.0 + 175.0 + 506.7 + 600.0)
         descend2 = descend / time
+        print("Total descend time: ", descend2)
 
 
 
