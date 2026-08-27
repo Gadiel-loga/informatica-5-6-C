@@ -22,7 +22,10 @@ def main():
         product = x * y
         print("", product)
 
-    
+    a = input("Enter an arithmetic expression: ")
+
+        if a = "1 + 1"
+
 
 
 if __name__ == "__main__":
