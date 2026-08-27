@@ -1,26 +1,37 @@
 def main():
 
-    layers = input("Enter the target atmospheric layer: ").title()
+    layers = input(""Descend atmosphere layer: ": ").title().strip()
 
     if layers == "Exosphere":
         ad = "700–10,000 km"
-        print("The altitude distance range from Earth of the exosphere is",ad)
+        print("your altitude level will be between",ad)
 
     if layers == "Thermosphere":
         ad = "85–700 km"
-        print("The altitude distance range from Earth of the thermosphere is",ad)
+        print("your altitude level will be between",ad)
 
     if layers == "Mesosphere":
-            ad = "50–85 km"
-            print("The altitude distance range from Earth of the mesosphere is",ad)
+        ad = "50–85 km"
+        print("your altitude level will be between",ad)
 
     if layers == "Stratosphere":
-                ad = "12–50 km"
-                print("The altitude distance range from Earth of the stratosphere is",ad)
+        ad = "12–50 km"
+        print("your altitude level will be between",ad)
 
     if layers == "Troposphere":
-                    ad = "0–12 km"
-                    print("The altitude distance range from Earth of the troposphere is",ad)
+        ad = "0–12 km"
+        print("your altitude level will be between",ad)
+
+    altitude = int(input("Enter exact altitude: "))
+
+    if altitude <= 700:
+        descend = altitude * 10
+        time = (230.0 + 175.0 + 506.7 + 600.0)
+        descend2 = descend / time
+
+
+
+
 
 if __name__ == "__main__":
     main()
