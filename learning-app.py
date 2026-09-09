@@ -7,9 +7,9 @@ def main():
     problem2 = random.randint(10,99)
     solution = problem1 + problem2
 
-    answer = int(input("If you cannot solve this operation ))
-
-
+    answer = int(input("ANSWER THE OPERATION: "))
+     if answer == solution
+        print("That's the correct answer!")
 
 
 

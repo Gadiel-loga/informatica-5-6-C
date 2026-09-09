@@ -11,7 +11,6 @@ def main():
     assignments = int(input("How many assignments do you have?"))
 
     work = ""
-
     message = ""
     uplift2 = ""
     dont = ""
@@ -25,20 +24,15 @@ def main():
 
         if assignments >= 3:
             print(f"{message}")
-
         elif assignments < 3:
             print(f"{uplift2}")
-
         if assignments == 0:
             print("You finished!")
             break
-
         if work == 0:
             print(f"{dont}")
 
         time.sleep(300)
-
-
 
 if __name__ == "__main__":
     main()
