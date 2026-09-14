@@ -22,5 +22,5 @@ print(months[5])
 print(months[6])
 print(months[7])
 
-month = 
+month = months
 print("It is", months[month-1])
