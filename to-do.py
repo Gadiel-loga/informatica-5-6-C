@@ -8,6 +8,11 @@ def main():
         if command == "add":
             new_mission = input("New mission: ")
             mission.append(new_mission)
+
+        elif command == "complete":
+            success = input("How many mission have u complete?")
+            if success >= 6:
+                print(" ")
         elif command == "stop":
             break
 
