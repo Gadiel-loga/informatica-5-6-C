@@ -18,7 +18,7 @@ def main():
     print(items)
 
     letters = ["b", "a", "d", "c"]
-    letters.sort(reverse=True) #reverse=True 
+    letters.sort(reverse=True) #invierte el orden
     print(letters)
 
     words = ['banana', 'pie', 'apple']
