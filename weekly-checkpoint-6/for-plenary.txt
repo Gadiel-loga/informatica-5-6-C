@@ -1,0 +1,7 @@
+1. Write a description for a while loop.
+The while loop is used as a condition that it means if a variable complies with the condition, the program will continue running or operating.
+
+2. Write a description for a for loop.
+The for loop is used when we want to select an specific variable and we want to make a change.
+
+3. Compare a while loop to a for loop.
