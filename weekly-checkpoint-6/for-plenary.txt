@@ -5,3 +5,4 @@ The while loop is used as a condition that it means if a variable complies with 
 The for loop is used when we want to select an specific variable and we want to make a change.
 
 3. Compare a while loop to a for loop.
+For loop: Repeating over a sequence/range	While loop: Repeating while a condition is true
