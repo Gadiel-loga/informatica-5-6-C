@@ -12,15 +12,25 @@ def main():
         except ValueError:
             print("YOU DIDN'T ENTERED A NUMBER!")
     # ctrl + k + c / ctrl + k + u
-    while True:
-        try:
+    # while True:
+    #     try:
 
-            name = input("Enter your name: ")
-            f_letter = name[0]
+    #         name = input("Enter your name: ")
+    #         f_letter = name[0]
+    #         print("Name stored succesfully.")
+    #         break
+    #     except IndexError:
+    #         print("A name is required")
+
+    name = 0
+    while name != "":
+        name = input("Enter your name: ")
+        if name == "":
+            print("A name is required.")
+            name = 0
+        else:
             print("Name stored succesfully.")
             break
-        except IndexError:
-            print("A name is required")
 
 
 
