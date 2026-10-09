@@ -3,12 +3,17 @@ def main():
     print("My purpose is to calculate and pass binary numbers to Decimals, my program maybe is not the best but I will try to help you with that (I may make mistakes too, I'm not perfect)")
 
 def binary_to_decimal(binary):
-    numbers = [1, 0]
-    num = int(input("Enter a binary number: "))
-    for i in range(numbers):
-        print()
-
-
+    numbers = [1, 2, 4, 8, 16, 32, 64, 128, 254]
+    while binary:
+        try:
+            if binary <= 1:
+                binary_list = []
+                num = int(input("Enter a binary number: "))
+                for i in range(numbers):
+                    print(f"{num * 2}")
+            else:
+        except ValueError:
+            print("You didn't input a binary number")
 
 # 1 1 0 0 1
 # (1 * 2) + 1 = 3
