@@ -2,6 +2,7 @@ def main():
     print("Welcome human to Decimal Converter")
     print("My purpose is to calculate and pass binary numbers to Decimals, my program maybe is not the best but I will try to help you with that (I may make mistakes too, I'm not perfect)")
 
+
 def binary_to_decimal(binary):
     numbers = [1, 2, 4, 8, 16, 32, 64, 128, 254]
     while binary:
